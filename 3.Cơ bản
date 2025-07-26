@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h2>Sở thích của tôi</h2>
+    <h1>Sở thích của tôi</h1>
     <ul>
       <li>Sở thích 1</li>
       <li>Sở thích 2</li>
