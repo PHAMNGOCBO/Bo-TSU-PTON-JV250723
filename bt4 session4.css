@@ -1,0 +1,15 @@
+/* reset css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css trang web */
+.text-blue {
+  color: #3e3efd;
+}
+body {
+    margin-top: 10px;
+    width: 50%;
+    border: solid 1px #000000;
+}
