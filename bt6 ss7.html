@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Blog</title>
+  <style>
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: gray;
+      color: white;
+      padding: 50px;
+    }
+
+    .nav-right a {
+      color: white;
+      margin-left: 100px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-right a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .featured {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+
+    .featured a:hover {
+      text-decoration: underline;
+    }
+
+    .post-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .post {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MY BLOG</h1>
+    <nav>
+      <a>Home</a>
+      <a>About</a>
+      <a>Posts</a>
+      <a>Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="featured">
+      <h2>Tiêu đề bài viết chính</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut nulla eu lorem tincidunt tristique.</p>
+      <a href="#">Đọc thêm</a>
+    </section>
+
+    <section class="other-posts">
+      <div class="post">
+        <h3>Bài viết 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="post">
+        <h3>Bài viết 2</h3>
+        <p>Donec ut nulla eu lorem tincidunt tristique.</p>
+      </div>
+      <div class="post">
+        <h3>Bài viết 3</h3>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2023 My Blog. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
